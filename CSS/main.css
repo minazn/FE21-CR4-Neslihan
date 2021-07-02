@@ -1,0 +1,51 @@
+@import url("large.css");
+@import url("medium.css");
+@import url("small.css");
+
+#herohead{
+    background-image: url("../IMG/homecinema.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 180px;
+    background-attachment: fixed;
+}
+
+#link{
+    color: rgb(59,106,129);
+}
+
+body{
+    background-image: url("../IMG/homecinema.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.desription{
+    background-color: rgb(59,106,129);
+    opacity: 1;
+    color: white;
+    height: 200px;
+}
+
+#movie-card{
+    opacity: 0.8;
+    padding: 0 !important;
+}
+
+.like_btn{
+    background-color: rgb(59,106,129) !important;
+}
+
+.nr-of-likes{
+    color: rgb(59,106,129);
+}
+
+.movie-card-title{
+    margin: 0 !important;
+}
+
+img{
+    max-width: 100% !important;
+
+}

@@ -1,0 +1,16 @@
+/* I am using breakpoints akkording to bootstrap */
+
+@media only screen and (max-width: 767px) { 
+
+    .content {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5em;
+    }
+
+    #movie-card{
+        max-width: 90%;
+    }
+
+  }

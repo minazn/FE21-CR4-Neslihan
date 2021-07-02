@@ -1,0 +1,66 @@
+let movieList = `[{
+    "movieName": "Harry Potter and the Philosophers Stone",
+    "image": "../IMG/hp1.jpg",
+    "description": "Harry Potter is an orphaned boy brought up by his unkind Muggle (non-magical aunt and uncle. At the age of eleven, half-giant Rubeus Hagrid informs him that he is actually a wizard and that his parents were murdered by an evil wizard named Lord Voldemort.",
+    "releaseDate": 2001,
+    "genre" : "Fantasy",
+    "price" : 10.49,
+    "likes": 102
+},{
+    "movieName": "Harry Potter and the Chamber of Secrets",
+    "image": "../IMG/hp2.jpg",
+    "description": "Harry, Ron, and Hermione return to Hogwarts for their second year, which proves to be more challenging than the last. The Chamber of Secrets has been opened, leaving students and ghosts petrified by an unleashed monster.",
+    "releaseDate": 2002,
+    "genre" : "Fantasy",
+    "price" : 10.49,
+    "likes": 20
+},{
+    "movieName": "Harry Potter and the Prizoner of Azkaban",
+    "image": "../IMG/hp3.jpg",
+    "description": "Harry Potter's third year sees the boy wizard, along with his friends, attending Hogwarts School once again. Professor R. J. Lupin joins the staff as Defence Against the Dark Arts teacher, while convicted murderer Sirius Black escapes from Azkaban Prison. ",
+    "releaseDate": 2004,
+    "genre" : "Fantasy",
+    "price" : 10.49,
+    "likes": 93
+},{
+    "movieName": "Harry Potter and the Goblet of Fire",
+    "image": "../IMG/hp4.jpg",
+    "description": "During Harry's fourth year, Hogwarts plays host to a legendary event: the Triwizard Tournament. Three European schools participate in the tournament, with three 'champions' representing each school in the deadly tasks.",
+    "releaseDate": 2005,
+    "genre" : "Fantasy",
+    "price" : 10.49,
+    "likes": 75
+},{
+    "movieName": "Harry Potter and the Order of the Phoenix",
+    "image": "../IMG/hp5.jpg",
+    "description": "Harry's fifth year begins with him being attacked by Dementors. Harry is also beset by disturbing and realistic nightmares, while Professor Umbridge, a representative of Minister for Magic Cornelius Fudge, is the new Defence Against the Dark Arts teacher.",
+    "releaseDate": 2007,
+    "genre" : "Fantasy",
+    "price" : 10.49,
+    "likes": 89
+},{
+    "movieName": "Harry Potter and the Half-Blood Prince",
+    "image": "../IMG/hp6.jpg",
+    "description": "In Harry's sixth year at Hogwarts, Lord Voldemort and his Death Eaters are increasing their terror upon the Wizarding and Muggle worlds. Albus Dumbledore persuades his old friend Horace Slughorn to return to Hogwarts as a professor. There is a more important reason, however, for Slughorn's return.",
+    "releaseDate": 2009,
+    "genre" : "Fantasy",
+    "price" : 10.49,
+    "likes": 119
+},{
+    "movieName": "Harry Potter and the Deathly Hallows – Part 1 ",
+    "image": "../IMG/hp7.jpg",
+    "description": "After unexpected events at the end of the previous year, Harry, Ron, and Hermione are entrusted with a quest to find and destroy Lord Voldemort's secret to immortality – the Horcruxes. It is supposed to be their final year at Hogwarts, but the collapse of the Ministry of Magic and Voldemort's rise to power prevents them from attending.",
+    "releaseDate": 2010,
+    "genre" : "Fantasy",
+    "price" : 10.49,
+    "likes": 208
+
+},{
+    "movieName": "Harry Potter and the Deathly Hallows – Part 2 ",
+    "image": "../IMG/hp8.jpg",
+    "description": "After destroying one Horcrux and discovering the significance of the three Deathly Hallows, Harry, Ron and Hermione continue to seek the other Horcruxes in an attempt to destroy Voldemort, who has now obtained the powerful Elder Wand. ",
+    "releaseDate": 2011,
+    "genre" : "Fantasy",
+    "price" : 10.49,
+    "likes": 258
+}]`
