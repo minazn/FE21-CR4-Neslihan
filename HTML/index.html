@@ -1,216 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-  scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Code Review 4</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <title>Code Review 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amiko' rel='stylesheet'>
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../CSS/main.css">
-
 </head>
 
-
 <body>
+    <!--If i put the h1 and h2 into the div, i cannot change the font size. The empty div i need
+    because of the background img-->
     <div class="d-flex justify-content-center align-items-center text-white" id="herohead">
         <h1>Movie Factory</h1>
     </div>
 
     <nav class="navbar bg-light">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 ps-5 h1">HOME</span>
+        <div class="container-fluid" id="link">
+            <a href="index.html" class="navbar-brand mb-0 ps-5 h1">HOME</a>
         </div>
     </nav>
 
-    <div class="container pt-5">
-        <div class="row d-flex justify-content-around">
-            
-            <div class="mb-3 col-lg-4 col-md-6 col-sm-12" id="movie-card">
-                <div class="row g-0 align-items-center">
-                    <div class="col-4">
-                        <img src="../IMG/hp1.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Harry Potter and the Philosophers Stone</h5>
-                            <p class="card-text">Released: 2001 <br> Genre: Fantasy</p>
-                            <div class="d-flex justify-content-end">
-                                <button type="button" class="btn like_btn text-white">Like</button>
-                                <span class="p-2 nr-of-likes">102</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="desription row p-2 m-0 text-center">
-                    <p>In Harry's sixth year at Hogwarts, Lord Voldemort and his Death Eaters are increasing
-                        their
-                        terror upon the Wizarding and Muggle worlds. Headmaster Albus Dumbledore persuades his
-                        old
-                        friend Horace Slughorn to return to Hogwarts as a professor as there is a vacancy to
-                        fill.
-                        There is a more important reason, however, for Slughorn's return. While in a Potions
-                        lesson,
-                        Harry takes possession of a strangely annotated school textbook, inscribed 'This is the
-                        property of the Half-Blood Prince'.
-                    </p>
-                </div>
+    <div class="d-flex justify-content-end" id="sort-div">
+        <button type="button" class="btn btn-outline-light text-white ps-4 pe-3" id="sort-btn">Sort &#8595; </button>
+    </div>
 
-            </div>
-            <div class="mb-3 col-lg-4 col-md-6 col-sm-12" id="movie-card">
-                <div class="row g-0 align-items-center">
-                    <div class="col-4">
-                        <img src="../IMG/hp1.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Harry Potter and the Philosophers Stone</h5>
-                            <p class="card-text">Released: 2001 <br> Genre: Fantasy</p>
-                            <div class="d-flex justify-content-end">
-                                <button type="button" class="btn like_btn text-white">Like</button>
-                                <span class="p-2 nr-of-likes">102</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="desription row p-2 m-0 text-center">
-                    <p>In Harry's sixth year at Hogwarts, Lord Voldemort and his Death Eaters are increasing
-                        their
-                        terror upon the Wizarding and Muggle worlds. Headmaster Albus Dumbledore persuades his
-                        old
-                        friend Horace Slughorn to return to Hogwarts as a professor as there is a vacancy to
-                        fill.
-                        There is a more important reason, however, for Slughorn's return. While in a Potions
-                        lesson,
-                        Harry takes possession of a strangely annotated school textbook, inscribed 'This is the
-                        property of the Half-Blood Prince'.
-                    </p>
-                </div>
 
-            </div>
-            <div class="mb-3 col-lg-4 col-md-6 col-sm-12" id="movie-card">
-                <div class="row g-0 align-items-center">
-                    <div class="col-4">
-                        <img src="../IMG/hp1.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Harry Potter and the Philosophers Stone</h5>
-                            <p class="card-text">Released: 2001 <br> Genre: Fantasy</p>
-                            <div class="d-flex justify-content-end">
-                                <button type="button" class="btn like_btn text-white">Like</button>
-                                <span class="p-2 nr-of-likes">102</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="desription row p-2 m-0 text-center">
-                    <p>In Harry's sixth year at Hogwarts, Lord Voldemort and his Death Eaters are increasing
-                        their
-                        terror upon the Wizarding and Muggle worlds. Headmaster Albus Dumbledore persuades his
-                        old
-                        friend Horace Slughorn to return to Hogwarts as a professor as there is a vacancy to
-                        fill.
-                        There is a more important reason, however, for Slughorn's return. While in a Potions
-                        lesson,
-                        Harry takes possession of a strangely annotated school textbook, inscribed 'This is the
-                        property of the Half-Blood Prince'.
-                    </p>
-                </div>
+    <div class="content">
 
-            </div>
-            <div class="mb-3 col-lg-4 col-md-6 col-sm-12" id="movie-card">
-                <div class="row g-0 align-items-center">
-                    <div class="col-4">
-                        <img src="../IMG/hp1.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Harry Potter and the Philosophers Stone</h5>
-                            <p class="card-text">Released: 2001 <br> Genre: Fantasy</p>
-                            <div class="d-flex justify-content-end">
-                                <button type="button" class="btn like_btn text-white">Like</button>
-                                <span class="p-2 nr-of-likes">102</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="desription row p-2 m-0 text-center">
-                    <p>In Harry's sixth year at Hogwarts, Lord Voldemort and his Death Eaters are increasing
-                        their
-                        terror upon the Wizarding and Muggle worlds. Headmaster Albus Dumbledore persuades his
-                        old
-                        friend Horace Slughorn to return to Hogwarts as a professor as there is a vacancy to
-                        fill.
-                        There is a more important reason, however, for Slughorn's return. While in a Potions
-                        lesson,
-                        Harry takes possession of a strangely annotated school textbook, inscribed 'This is the
-                        property of the Half-Blood Prince'.
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="mb-3 col-lg-4 col-md-6 col-sm-12" id="movie-card">
-                <div class="row g-0 align-items-center">
-                    <div class="col-4">
-                        <img src="../IMG/hp1.jpg" class="img-fluid rounded-start" alt="...">
-                    </div>
-                    <div class="col-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Harry Potter and the Philosophers Stone</h5>
-                            <p class="card-text">Released: 2001 <br> Genre: Fantasy</p>
-                            <div class="d-flex justify-content-end">
-                                <button type="button" class="btn like_btn text-white">Like</button>
-                                <span class="p-2 nr-of-likes">102</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="desription row p-2 m-0 text-center">
-                    <p>In Harry's sixth year at Hogwarts, Lord Voldemort and his Death Eaters are increasing
-                        their
-                        terror upon the Wizarding and Muggle worlds. Headmaster Albus Dumbledore persuades his
-                        old
-                        friend Horace Slughorn to return to Hogwarts as a professor as there is a vacancy to
-                        fill.
-                        There is a more important reason, however, for Slughorn's return. While in a Potions
-                        lesson,
-                        Harry takes possession of a strangely annotated school textbook, inscribed 'This is the
-                        property of the Half-Blood Prince'.
-                    </p>
-                </div>
-
-            </div>
-
+        <div class="row justify-content-around" id="movie-listing">
 
 
         </div>
     </div>
 
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+
+
+    <!-------------------------FOOTER------------------------------------------->
+    <div class="jumbotron text-white mb-0 mt-4 text-center bg-dark" id="footer">
+
+        <h6>All Rights reserved. &copy; Movie Factory, 2021</h6>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
 
-
-
-    <!--JS-->
+    <!--------------JS----------->
     <script src="../JS/movielist.json"></script>
-    <script src="../JS/script.js"></script>
+    <script type="text/javascript" src="../JS/script.js"></script>
 </body>
 
 </html>

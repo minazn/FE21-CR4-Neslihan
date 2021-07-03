@@ -1,16 +1,15 @@
 /* I am using breakpoints akkording to bootstrap */
 
-@media only screen and(min-width:335px) and (max-width: 767px) { 
-
+@media only screen and (min-width: 1200px) { 
     .content {
-        width: 90%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         padding-top: 3em;
     }
 
     #movie-card{
-        max-width: 90%;
+        max-width: 30%;
     }
 
     #sort-div{
@@ -18,6 +17,14 @@
         margin-left: auto;
         margin-right: auto;
         padding-top: 2em;
+    }
+
+    .desription{
+        height: 200px;
+    }
+
+    .card-white-block{
+        height: 200px;
     }
 
   }

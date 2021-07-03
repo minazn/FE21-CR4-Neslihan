@@ -11,4 +11,19 @@
     #movie-card{
         max-width: 45%;
     }
+
+    #sort-div{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2em;
+    }
+
+    .desription{
+        height: 300px;
+    }
+
+    .card-white-block{
+        height: 250px;
+    }
   }
